@@ -1,0 +1,47 @@
+.markdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(174, 221, 221);
+  font-size: large;
+}
+
+.header {
+  padding: 1rem;
+}
+
+h1 {
+  padding-top: 1rem;
+}
+
+.editor {
+  margin-left: 2rem;
+}
+
+.preview {
+  margin-right: 2rem;
+}
+
+.editor__textarea {
+  background-color: rgb(174, 221, 221);
+  margin-right: 5rem;
+}
+
+.preview {
+  border: 1px solid green;
+  padding-left: 1rem;
+}
+
+code {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  max-width: 90%;
+  margin: 0.5rem auto;
+}
